@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hritik Raj | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white">
+
+    <header class="fixed top-0 left-0 w-full bg-slate-900/80 backdrop-blur-md border-b border-slate-800 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#hero" class="text-2xl font-bold tracking-wider text-indigo-400 hover:text-indigo-300 transition">HRITIK RAJ</a>
+            
+            <nav class="hidden md:flex space-x-8 font-medium">
+                <a href="#about" class="hover:text-indigo-400 transition">About</a>
+                <a href="#skills" class="hover:text-indigo-400 transition">Skills</a>
+                <a href="#projects" class="hover:text-indigo-400 transition">Projects</a>
+                <a href="#education" class="hover:text-indigo-400 transition">Education</a>
+                <a href="#contact" class="hover:text-indigo-400 transition">Contact</a>
+            </nav>
+
+            <button id="menu-btn" class="md:hidden text-slate-300 hover:text-white focus:outline-none">
+                <i data-lucide="menu" class="w-6 h-6"></i>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-slate-800 border-b border-slate-700 px-6 py-4 flex flex-col space-y-4">
+            <a href="#about" class="mobile-link hover:text-indigo-400 transition">About</a>
+            <a href="#skills" class="mobile-link hover:text-indigo-400 transition">Skills</a>
+            <a href="#projects" class="mobile-link hover:text-indigo-400 transition">Projects</a>
+            <a href="#education" class="mobile-link hover:text-indigo-400 transition">Education</a>
+            <a href="#contact" class="mobile-link hover:text-indigo-400 transition">Contact</a>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <section id="hero" class="min-h-[85vh] flex items-center justify-center relative overflow-hidden px-6">
+            <div class="absolute -top-40 -left-40 w-96 h-96 bg-indigo-600/20 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute -bottom-40 -right-40 w-96 h-96 bg-purple-600/20 rounded-full blur-3xl pointer-events-none"></div>
+
+            <div class="max-w-4xl mx-auto text-center z-10">
+                <span class="inline-block py-1 px-3 rounded-full bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 text-sm font-semibold mb-6">
+                    B.Tech Computer Science & Engineering
+                </span>
+                <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6">
+                    Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400">Hritik Raj</span>
+                </h1>
+                <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-8 leading-relaxed">
+                    Passionate Web Developer and Computer Science undergraduate driven by problem-solving, clean code, and crafting responsive web experiences.
+                </p>
+                
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="#projects" class="bg-indigo-600 hover:bg-indigo-500 text-white font-medium px-6 py-3 rounded-xl transition shadow-lg shadow-indigo-600/30 flex items-center gap-2">
+                        View My Work <i data-lucide="arrow-down-right" class="w-4 h-4"></i>
+                    </a>
+                    <a href="#contact" class="border border-slate-700 hover:border-slate-500 bg-slate-800/50 text-slate-200 font-medium px-6 py-3 rounded-xl transition flex items-center gap-2">
+                        Get In Touch <i data-lucide="mail" class="w-4 h-4"></i>
+                    </a>
+                </div>
+
+                <div class="flex justify-center items-center gap-6 mt-12 text-slate-400">
+                    <a href="https://www.linkedin.com/in/hritik-raj-086a76385/" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-400 transition flex items-center gap-2">
+                        <i data-lucide="linkedin" class="w-5 h-5"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/bittukumaryadav5328-png" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-400 transition flex items-center gap-2">
+                        <i data-lucide="github" class="w-5 h-5"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-20 bg-slate-900/50 border-t border-slate-800 px-6">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl font-bold text-slate-100 mb-12 flex items-center gap-3">
+                    <i data-lucide="user" class="text-indigo-400"></i> About & Certifications
+                </h2>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-slate-800/40 border border-slate-800 p-6 rounded-2xl">
+                        <h3 class="text-xl font-semibold text-indigo-400 mb-4">Background</h3>
+                        <p class="text-slate-300 leading-relaxed mb-4">
+                            Currently pursuing a B.Tech in Computer Science and Engineering at Lovely Professional University. I focus on frontend web development, database management systems, and building scalable software solutions.
+                        </p>
+                        <p class="text-slate-300 leading-relaxed">
+                            A strong believer in continuous learning, teamwork, and structured problem-solving.
+                        </p>
+                    </div>
+
+                    <div class="bg-slate-800/40 border border-slate-800 p-6 rounded-2xl">
+                        <h3 class="text-xl font-semibold text-indigo-400 mb-4">Certifications</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start gap-3 bg-slate-900/50 p-3 rounded-lg border border-slate-800">
+                                <i data-lucide="award" class="text-indigo-400 w-5 h-5 mt-1 shrink-0"></i>
+                                <div>
+                                    <h4 class="font-medium text-slate-100">Introduction to Artificial Intelligence</h4>
+                                    <p class="text-sm text-slate-400">Infosys • Mar ’26</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-3 bg-slate-900/50 p-3 rounded-lg border border-slate-800">
+                                <i data-lucide="award" class="text-indigo-400 w-5 h-5 mt-1 shrink-0"></i>
+                                <div>
+                                    <h4 class="font-medium text-slate-100">Community Development Project</h4>
+                                    <p class="text-sm text-slate-400">Times of India • Jun ’26</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="py-20 border-t border-slate-800 px-6">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl font-bold text-slate-100 mb-8 flex items-center gap-3">
+                    <i data-lucide="code" class="text-indigo-400"></i> Technical Expertise
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="bg-slate-800/40 border border-slate-800 p-6 rounded-2xl">
+                        <h3 class="text-lg font-semibold text-indigo-400 mb-4 flex items-center gap-2">
+                            <i data-lucide="terminal" class="w-5 h-5"></i> Languages & Web
+                        </h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-slate-900 border border-slate-700 text-slate-200 px-3 py-1 rounded-lg text-sm">C++</span>
+                            <span class="bg-slate-900 border border-slate-700 text-slate-200 px-3 py-1 rounded-lg text-sm">C</span>
+                            <span class="bg-slate-900 border border-slate-700 text-slate-200 px-3 py-1 rounded-lg text-sm">Python</span>
+                            <span class="bg-slate-900 border border-slate-700 text-slate-200 px-3 py-1 rounded-lg text-sm">HTML</span>
+                            <span class="bg-slate-900 border border-slate-700 text-slate-200 px-3 py-1 rounded-lg text-sm">CSS</span>
+                            <span class="bg-slate-900 border border-slate-700 text-slate-200 px-3 py-1 rounded-lg text-sm">JavaScript</span>
+                            <span class="bg-slate-900 border border-slate-700 text-slate-200 px-3 py-1 rounded-lg text-sm">DBMS</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-800/40 border border-slate-800 p-6 rounded-2xl">
+                        <h3 class="text-lg font-semibold text-indigo-400 mb-4 flex items-center gap-2">
+                            <i data-lucide="wrench" class="w-5 h-5"></i> Tools & Platforms
+                        </h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-slate-900 border border-slate-700 text-slate-200 px-3 py-1 rounded-lg text-sm">SQL</span>
+                            <span class="bg-slate-900 border border-slate-700 text-slate-200 px-3 py-1 rounded-lg text-sm">GitHub</span>
+                            <span class="bg-slate-900 border border-slate-700 text-slate-200 px-3 py-1 rounded-lg text-sm">GitHub Pages</span>
+                            <span class="bg-slate-900 border border-slate-700 text-slate-200 px-3 py-1 rounded-lg text-sm">Tailwind CSS</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-800/40 border border-slate-800 p-6 rounded-2xl">
+                        <h3 class="text-lg font-semibold text-indigo-400 mb-4 flex items-center gap-2">
+                            <i data-lucide="users" class="w-5 h-5"></i> Professional Skills
+                        </h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-slate-900 border border-slate-700 text-slate-200 px-3 py-1 rounded-lg text-sm">Problem-Solving</span>
+                            <span class="bg-slate-900 border border-slate-700 text-slate-200 px-3 py-1 rounded-lg text-sm">Team Player</span>
+                            <span class="bg-slate-900 border border-slate-700 text-slate-200 px-3 py-1 rounded-lg text-sm">Project Management</span>
+                            <span class="bg-slate-900 border border-slate-700 text-slate-200 px-3 py-1 rounded-lg text-sm">Adaptability</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="py-20 bg-slate-900/50 border-t border-slate-800 px-6">
+            <div class="max-w-6xl mx-auto">
+                <div class="flex justify-between items-end mb-12">
+                    <div>
+                        <h2 class="text-3xl font-bold text-slate-100 flex items-center gap-3">
+                            <i data-lucide="folder-git-2" class="text-indigo-400"></i> Featured Projects
+                        </h2>
+                        <p class="text-slate-400 mt-2">Interactive cards featuring technical details and outcomes.</p>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-slate-800/30 border border-slate-800 hover:border-indigo-500/50 transition duration-300 rounded-2xl p-6 flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start mb-4">
+                                <span class="text-xs font-semibold px-2.5 py-1 rounded bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">Aug ’26</span>
+                                <i data-lucide="layout" class="text-slate-500 w-6 h-6"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-slate-100 mb-2">Personal Portfolio Website</h3>
+                            <p class="text-slate-400 text-sm mb-4">HTML, Tailwind CSS, Responsive Web Design</p>
+                            <ul class="text-slate-300 text-sm space-y-2 mb-6 list-disc list-inside">
+                                <li>Designed and developed a responsive personal portfolio to showcase technical skills and profile.</li>
+                                <li>Implemented responsive layouts and interactive UI elements using Tailwind utility classes.</li>
+                                <li>Deployed using GitHub Pages for direct live accessibility.</li>
+                            </ul>
+                        </div>
+                        <button onclick="openModal('portfolio')" class="w-full py-2.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-indigo-400 font-medium rounded-xl transition flex items-center justify-center gap-2">
+                            View Details <i data-lucide="external-link" class="w-4 h-4"></i>
+                        </button>
+                    </div>
+
+                    <div class="bg-slate-800/30 border border-slate-800 hover:border-indigo-500/50 transition duration-300 rounded-2xl p-6 flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start mb-4">
+                                <span class="text-xs font-semibold px-2.5 py-1 rounded bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">Aug ’26</span>
+                                <i data-lucide="shopping-bag" class="text-slate-500 w-6 h-6"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-slate-100 mb-2">ThreadCo – E-Commerce Website</h3>
+                            <p class="text-slate-400 text-sm mb-4">HTML, CSS, Responsive Web Design</p>
+                            <ul class="text-slate-300 text-sm space-y-2 mb-6 list-disc list-inside">
+                                <li>Developed a web-based platform with product listings, pricing, and details for a streetwear brand.</li>
+                                <li>Implemented multi-page navigation across Home, Products, Product Details, Contact, and Cart.</li>
+                                <li>Designed bestseller sections with promotional offers and early-access email forms.</li>
+                            </ul>
+                        </div>
+                        <button onclick="openModal('threadco')" class="w-full py-2.5 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-indigo-400 font-medium rounded-xl transition flex items-center justify-center gap-2">
+                            View Details <i data-lucide="external-link" class="w-4 h-4"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="py-20 border-t border-slate-800 px-6">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl font-bold text-slate-100 mb-12 flex items-center gap-3">
+                    <i data-lucide="graduation-cap" class="text-indigo-400"></i> Academic Timeline
+                </h2>
+
+                <div class="relative border-l border-slate-800 ml-4 md:ml-6 space-y-12">
+                    <div class="relative pl-8">
+                        <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-indigo-500 ring-4 ring-slate-900"></div>
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-1">
+                            <h3 class="text-xl font-bold text-slate-100">Lovely Professional University</h3>
+                            <span class="text-indigo-400 text-sm font-semibold">Aug ’25 – Present</span>
+                        </div>
+                        <p class="text-slate-300 font-medium">Bachelor of Technology – Computer Science & Engineering</p>
+                        <p class="text-slate-400 text-sm mt-1">Phagwara, Punjab • CGPA: <span class="text-indigo-400 font-semibold">7.67</span></p>
+                    </div>
+
+                    <div class="relative pl-8">
+                        <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-slate-700 ring-4 ring-slate-900"></div>
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-1">
+                            <h3 class="text-xl font-bold text-slate-100">+2 Rajkiya H/S Jethiyan</h3>
+                            <span class="text-slate-400 text-sm">May ’23 – Mar ’25</span>
+                        </div>
+                        <p class="text-slate-300 font-medium">Intermediate (PCM)</p>
+                        <p class="text-slate-400 text-sm mt-1">Gaya, Bihar • Score: <span class="text-indigo-400 font-semibold">77.8%</span></p>
+                    </div>
+
+                    <div class="relative pl-8">
+                        <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-slate-700 ring-4 ring-slate-900"></div>
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-1">
+                            <h3 class="text-xl font-bold text-slate-100">City Public School</h3>
+                            <span class="text-slate-400 text-sm">Apr ’22 – May ’23</span>
+                        </div>
+                        <p class="text-slate-300 font-medium">Matriculation</p>
+                        <p class="text-slate-400 text-sm mt-1">Sikhar, Gaya, Bihar • Score: <span class="text-indigo-400 font-semibold">70.2%</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 bg-slate-900/50 border-t border-slate-800 px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-slate-100 mb-4">Get In Touch</h2>
+                <p class="text-slate-400 mb-8">Feel free to reach out for collaborations, project inquiries, or opportunities.</p>
+
+                <div class="grid md:grid-cols-3 gap-6 mb-12">
+                    <a href="mailto:hritik6299raj@gmail.com" class="bg-slate-800/40 border border-slate-800 p-6 rounded-2xl hover:border-indigo-500/50 transition">
+                        <i data-lucide="mail" class="w-8 h-8 text-indigo-400 mx-auto mb-3"></i>
+                        <h3 class="text-sm font-semibold text-slate-400">Email</h3>
+                        <p class="text-slate-200 font-medium text-xs md:text-sm mt-1">hritik6299raj@gmail.com</p>
+                    </a>
+
+                    <a href="tel:+919199662354" class="bg-slate-800/40 border border-slate-800 p-6 rounded-2xl hover:border-indigo-500/50 transition">
+                        <i data-lucide="phone" class="w-8 h-8 text-indigo-400 mx-auto mb-3"></i>
+                        <h3 class="text-sm font-semibold text-slate-400">Phone</h3>
+                        <p class="text-slate-200 font-medium text-sm mt-1">+91 9199662354</p>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/hritik-raj-086a76385/" target="_blank" rel="noopener noreferrer" class="bg-slate-800/40 border border-slate-800 p-6 rounded-2xl hover:border-indigo-500/50 transition">
+                        <i data-lucide="linkedin" class="w-8 h-8 text-indigo-400 mx-auto mb-3"></i>
+                        <h3 class="text-sm font-semibold text-slate-400">LinkedIn</h3>
+                        <p class="text-slate-200 font-medium text-sm mt-1">hritik-raj-086a76385</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-6 border-t border-slate-800 text-center text-slate-500 text-sm">
+        <p>&copy; 2026 Hritik Raj. Built with HTML, Tailwind CSS & JavaScript.</p>
+    </footer>
+
+    <div id="project-modal" class="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center hidden p-4">
+        <div class="bg-slate-800 border border-slate-700 rounded-2xl max-w-lg w-full p-6 relative">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white">
+                <i data-lucide="x" class="w-6 h-6"></i>
+            </button>
+            <div id="modal-content">
+                </div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Mobile Menu Toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Interactive Modal Data
+        const projectData = {
+            portfolio: {
+                title: "Personal Portfolio Website",
+                tech: "HTML, Tailwind CSS, Responsive Web Design",
+                details: "Designed and developed a responsive personal portfolio website using HTML and Tailwind CSS. Implemented interactive UI elements using Tailwind utility classes and deployed the code via GitHub Pages for showcase.",
+                link: "https://github.com/bittukumaryadav5328-png"
+            },
+            threadco: {
+                title: "ThreadCo – E-Commerce Website",
+                tech: "HTML, CSS, Responsive Web Design",
+                details: "A web-based e-commerce platform tailored for a streetwear brand. Features structured navigation across Home, Products, Product Details, Contact, and Cart sections. Includes product showcases, ratings, promotional offer banners, and early-access email forms.",
+                link: "https://github.com/bittukumaryadav5328-png"
+            }
+        };
+
+        function openModal(key) {
+            const data = projectData[key];
+            const content = document.getElementById('modal-content');
+            content.innerHTML = `
+                <h3 class="text-2xl font-bold text-slate-100 mb-2">${data.title}</h3>
+                <p class="text-indigo-400 text-sm font-medium mb-4">${data.tech}</p>
